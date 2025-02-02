@@ -24,6 +24,22 @@
     /* centers block elements */
     border-radius: 50px;
     margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    
+}
+
+#home{
+    border: 3px solid rgb(28, 42, 193);
+    background-color: beige;
+}
+#about{
+    border: 3px solid rgb(28, 42, 193);
+    background-color: beige;
+}
+#contact{
+    border: 3px solid rgb(28, 42, 193);
+    background-color: beige;
 }
 
 .row{
@@ -39,4 +55,36 @@
 
 .im-attributes{
     border:2px solid black;
+    object-fit: cover;
+}
+.home-hello{
+    text-align: center; 
+    font-size: max(1.7vw, 1.7vw);
+}
+.footnote{
+    justify-content:center;
+    text-align: center; 
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(26, 51, 124);
+    color:rgb(173, 179, 179);
+    font-size: max(1.3vw, 1.3vw);
+}
+
+.center-about{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto; 
+    justify-content: center;
+    text-align: center;
+}
+.center-ul{
+    display: inline-block;
+    text-align: left;
+}
+.center-block{
+    text-align: center;
 }
